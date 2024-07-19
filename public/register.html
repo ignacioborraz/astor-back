@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="./styles/layout.css" />
+  <link rel="stylesheet" href="./styles/login.css" />
+  <title>ASTOR</title>
+</head>
+
+<body>
+  <main>
+    <form class="login-form">
+      <input class="login-input" placeholder="E-mail" type="email" name="email" id="email">
+      <input class="login-input" placeholder="Password" type="password" name="password" id="password">
+      <input class="login-input" placeholder="Nombre" type="text" name="first_name" id="first_name">
+      <input class="login-input" placeholder="Apellido" type="text" name="last_name" id="last_name">
+      <input class="login-input" placeholder="URL de foto de perfil" type="text" name="avatar" id="avatar">
+      <input class="login-button" type="button" id="register" value="Registrar!">
+      <p>Tienes una cuenta? <a class="login-anchor" href="/">Incia sesión!</a></p>
+    </form>
+  </main>
+</body>
+<script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+<script src="./scripts/register.js" type="module"></script>
+
+</html>

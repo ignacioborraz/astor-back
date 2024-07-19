@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="./styles/layout.css" />
+  <link rel="stylesheet" href="./styles/login.css" />
+  <title>ASTOR</title>
+</head>
+
+<body>
+  <main>
+    <form class="login-form">
+      <input class="login-input" placeholder="Nombre de la sección" type="text" name="section" id="section">
+      <input class="login-input" placeholder="Nombre de la muestra" type="text" name="title" id="title">
+      <input class="login-input" placeholder="Código del color" type="text" name="color" id="color">
+      <input class="login-input" placeholder="Fotos" type="file" multiple name="photos" id="photos">
+      <input class="login-input" placeholder="Portada (por defecto la última)" type="file" name="main_photo" id="main_photo">
+      <input class="login-input" placeholder="Fecha (por defecto hoy)" type="date" name="date" id="date">
+      <input class="login-button" type="button" id="create" value="Probar!">
+    </form>
+    <div id="example"></div>    
+  </main>
+</body>
+<script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+<script src="./scripts/newsample.js" type="module"></script>
+
+</html>
